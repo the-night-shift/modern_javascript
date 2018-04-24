@@ -62,7 +62,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -78,7 +78,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log('index.js is working');\n\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\n\n\n// use math.js\nmath.sqrt(-4); // 2i\nconsole.log(math.sqrt(-4));\nconsole.log('hello');\n\n\n//# sourceURL=webpack:///./index.js?");
+"use strict";
+eval("\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log('index.js is working');\n\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\n\nvar name = \"Billy\";\nvar birthDate = \"July 16th\";\n\nconsole.log(name + ' was born on ' + birthDate);\n\n// use math.js\nmath.sqrt(-4); // 2i\nconsole.log(math.sqrt(-4));\nconsole.log('hello');\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
