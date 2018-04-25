@@ -6,8 +6,8 @@ console.log('index.js is working');
 console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
 
-var name = "Billy";
-var birthDate = "July 16th";
+var name = "Billi;alsdjf;kladsfj;aldsfjlds";
+var birthDate = "August 17th";
 
 console.log(`${name} was born on ${birthDate}`);
 

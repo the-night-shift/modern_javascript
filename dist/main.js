@@ -79,7 +79,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log('index.js is working');\n\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\n\nvar name = \"Billy\";\nvar birthDate = \"July 16th\";\n\nconsole.log(name + ' was born on ' + birthDate);\n\n// use math.js\nmath.sqrt(-4); // 2i\nconsole.log(math.sqrt(-4));\nconsole.log('hello');\n\n//# sourceURL=webpack:///./index.js?");
+eval("\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log('index.js is working');\n\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\n\nvar name = \"Billy\";\nvar birthDate = \"August 17th\";\n\nconsole.log(name + ' was born on ' + birthDate);\n\n// use math.js\nmath.sqrt(-4); // 2i\nconsole.log(math.sqrt(-4));\nconsole.log('hello');\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
